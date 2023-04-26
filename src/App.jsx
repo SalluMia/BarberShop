@@ -23,10 +23,12 @@ const App = () => {
       <Home />
       <ExploreServices />
       <About />
-      {/* <Book /> */}
+      <Advantages />
+      <Book />
       <Reviews />
       <FAQ />
-      {/* <Advantages />
+      {/* 
+        
       <Search />
       <TopBarber />
       <TopWomenBarber />

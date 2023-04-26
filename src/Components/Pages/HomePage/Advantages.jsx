@@ -3,10 +3,10 @@ import React from 'react';
 const Advantages = () => {
   return (
     <div className='relative'>
-      <div className='container h-[50vh] my-60'>
+      <div className='container md:h-[50vh] h-[100vh] my-60'>
         <h1 className='text-5xl text-left mt-9 '>Advantages</h1>
 
-        <div className='flex justify-evenly items-center'>
+        <div className='md:flex justify-evenly items-center'>
           <div>
             <p className='text-[#1E1E1E]'>
               Nulla convallis porttitor porttitor. Nullam id feugiat nisi. Donec
@@ -143,7 +143,7 @@ const Advantages = () => {
               </div>
             </div>
           </div>
-          <div className=' relative w-full h-[450px] flex items-end'>
+          <div className='relative  md:h-[450px] h-[700px] flex items-end'>
             <div className='mx-6'>
               <svg
                 width='367'
@@ -166,7 +166,7 @@ const Advantages = () => {
               </svg>
             </div>
 
-            <div className='absolute z-20 top-0 right-[389px] drop-shadow-xl  border border-3 w-[290px] h-[390px]'>
+            <div className='absolute z-20 md:top-0 top-20 md:right-[389px] right-[289px] drop-shadow-xl  border border-3 w-[290px] h-[390px]'>
               <img
                 className='w-[289px] h-[388px] object-cover'
                 src='https://www.figma.com/file/gqtlv0RnkBHU0Ux266aanT/image/387ab9b5f6b22d70030b421a14da1a36996a5878'
