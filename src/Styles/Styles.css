@@ -1,0 +1,71 @@
+.background-image-landing {
+  background-image: url("../assets/icons/bgImage.png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+
+  background-repeat: no-repeat;
+}
+.scissor-background-img{
+  background-image: url("../assets/icons/scissors.png");
+  background-repeat: no-repeat;
+  background-position:right;
+  height: 100%;
+}
+.rectangle{
+  background-image: url("../assets/rectangle.svg");
+  background-repeat: no-repeat;
+}
+.rectangle-sm{
+  background-image: url("../assets/rectangle.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+
+}
+.background-image-lady-background {
+  background-image: url("../assets/icons/brushsss.png");
+  width: 761px;
+}
+.about-man-img{
+  left: -90px !important;
+}
+.background-image-About {
+  background-image: url("../assets/icons/aboutabckround.png");
+  background-size: cover;
+  width: 85%;
+  /* height: 400px; */
+  background-repeat: no-repeat;
+  margin: 50px auto;
+}
+
+.background-image-Listing {
+  background-image: url("../assets/icons/aboutabckround.png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin: auto;
+
+  background-repeat: no-repeat;
+}
+.background-image-Detail {
+  background-image: url("../assets/icons/barberdetailbg.png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 414px;
+  margin: auto;
+
+  background-repeat: no-repeat;
+}
+.background-image-scissors {
+  background-image: url("../assets/icons/scissors.png");
+  background-size: contain;
+  background-position-x: right;
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+}
