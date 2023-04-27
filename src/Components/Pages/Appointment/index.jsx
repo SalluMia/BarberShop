@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Appointment.css";
 import "react-day-picker/dist/style.css";
 import { format } from "date-fns";
-import "react-day-picker/dist/style.css";
+// import "react-day-picker/dist/style.css";
 import Service from "./Service";
 import Time from "./Time";
 function index() {

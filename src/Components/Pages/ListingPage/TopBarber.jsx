@@ -121,9 +121,8 @@ const TopBarber = () => {
         </AliceCarousel>
         <div
           onClick={(e) => handlePrevClick(e, carousel)}
-          className="absolute -left-[50px] w-[54px] h-[54px] border-2 border-[#C5AC80] flex justify-center items-center rounded-full sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
+          className="absolute md:left-[-5%] left-[0%] w-[54px] h-[54px] border-2 border-[#C5AC80] flex justify-center items-center rounded-full sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
         >
-          {/* <ArrowNarrowLeftIcon className="h-5 w-5" /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -139,7 +138,7 @@ const TopBarber = () => {
         </div>
         <div
           onClick={(e) => handleNextClick(e, carousel)}
-          className="absolute border-2 border-[#C5AC80]  rounded-full w-[54px] h-[54px] flex justify-center items-center -right-[50px] sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
+          className="absolute border-2 border-[#C5AC80]  rounded-full w-[54px] h-[54px] flex justify-center items-center md:right-[-5%] right-[0%] sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
         >
           {/* <ArrowNarrowRightIcon className="h-5 w-5" /> */}
           <svg

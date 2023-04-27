@@ -42,11 +42,11 @@ const SatisfiedClients = () => {
     <div>
       <div>
         <div className="flex mt-5">
-          <div className="col-md-4  inline-flex align-items-end text-5xl h-28 ml-[100px]">
-            Women Barber:
+          <div className="col-md-4  inline-flex align-items-end text-5xl h-28 md:ml-[100px]">
+            Satisfied Clients:
           </div>
 
-          <div className="col-md-7  flex justify-end h-28">
+          <div className="col-md-7 flex justify-end h-28">
             {/* <img src={secsior} /> */}
           </div>
         </div>
@@ -75,7 +75,7 @@ const SatisfiedClients = () => {
         </AliceCarousel>
         <div
           onClick={(e) => handlePrevClick(e, carousel)}
-          className="absolute -left-[50px] w-[54px] h-[54px] bg-[#C5AC80] flex justify-center items-center rounded-full sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
+          className="absolute left-[0%] md:left-[-5%] w-[54px] h-[54px] bg-[#C5AC80] flex justify-center items-center rounded-full sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
         >
           {/* <ArrowNarrowLeftIcon className="h-5 w-5" /> */}
           <svg
@@ -93,7 +93,7 @@ const SatisfiedClients = () => {
         </div>
         <div
           onClick={(e) => handleNextClick(e, carousel)}
-          className="absolute bg-[#C5AC80]  rounded-full w-[54px] h-[54px] flex justify-center items-center -right-[50px] sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
+          className="absolute bg-[#C5AC80]  rounded-full w-[54px] h-[54px] flex justify-center items-center md:right-[-5%] right-[0%] sm:visible top-1/3  transform -translate-y-1/2 text-gray-700 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none"
         >
           {/* <ArrowNarrowRightIcon className="h-5 w-5" /> */}
           <svg
