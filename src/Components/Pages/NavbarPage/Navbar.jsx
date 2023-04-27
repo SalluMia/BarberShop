@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../../assets/icons/logo.png';
+import { Link } from 'react-router-dom';
 const Navbar = (props) => {
+  const [show , setShow] = useState(false)
   console.log(props);
   return (
     <>
@@ -15,6 +17,7 @@ const Navbar = (props) => {
             class='inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600'
             aria-controls='navbar-dropdown'
             aria-expanded='false'
+            onClick={()=>setShow(!show)}
           >
             <span class='sr-only'>Open main menu</span>
             <svg
@@ -31,7 +34,7 @@ const Navbar = (props) => {
               ></path>
             </svg>
           </button>
-          <div class='hidden w-full md:block md:w-auto' id='navbar-dropdown'>
+          <div class={show?'w-full md:block md:w-auto':"hidden w-full md:block md:w-auto"} id='navbar-dropdown'>
             <ul class='flex flex-col font-medium  md:p-0 py-3 my-auto rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
               <li>
                 <button
@@ -47,9 +50,9 @@ const Navbar = (props) => {
                 </button>
               </li>
               <li>
-                <button class='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
+                <Link to={"/services"} class='nav-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
                   Services
-                </button>
+                </Link>
               </li>
               <li>
                 <button class='block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
@@ -57,9 +60,9 @@ const Navbar = (props) => {
                 </button>
               </li>
               <li>
-                <button className=' w-[146px] h-[43px] rounded-[70px] bg-[#C5AC80]'>
+                <Link to={"/navbar"}  className=' w-[146px] h-[43px] rounded-[70px] bg-[#C5AC80] nav-link text-center py-2'>
                   Log In
-                </button>
+                </Link>
               </li>
             </ul>
           </div>

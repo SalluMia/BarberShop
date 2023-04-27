@@ -15,11 +15,25 @@ import SignUp from './Components/Pages/SignUp/SignUp';
 import Reviews from './Components/Pages/HomePage/Reviews';
 import FAQ from './Components/Pages/HomePage/FAQ';
 import Book from './Components/Pages/HomePage/Book';
+import Footer from './Components/Pages/HomePage/Footer';
+import Index from './Components/Pages/HomePage/Index';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ListingPage from './Components/Pages/ListingPage/ListingPage';
 
 const App = () => {
   return (
     <>
-      <Navbar />
+    <BrowserRouter >
+    <Navbar />
+      <Routes >
+        <Route path='/' element={<Index />} />
+        <Route path='/navbar' element={<SignUp />} />
+        <Route path='/services' element={<ListingPage />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+ 
+      {/* <Navbar />
       <Home />
       <ExploreServices />
       <About />
@@ -27,6 +41,8 @@ const App = () => {
       <Book />
       <Reviews />
       <FAQ />
+      <Footer /> */}
+
       {/* 
         
       <Search />

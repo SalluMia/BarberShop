@@ -6,8 +6,8 @@ const Advantages = () => {
       <div className='container md:h-[50vh] h-[100vh] my-60'>
         <h1 className='text-5xl text-left mt-9 '>Advantages</h1>
 
-        <div className='md:flex justify-evenly items-center'>
-          <div>
+        <div className='md:flex justify-evenly items-center w-100'>
+          <div className='md:w-[40%]'>
             <p className='text-[#1E1E1E]'>
               Nulla convallis porttitor porttitor. Nullam id feugiat nisi. Donec
               at egestas augue. Curabitur venenatis ullamcorper sem quis
@@ -143,7 +143,7 @@ const Advantages = () => {
               </div>
             </div>
           </div>
-          <div className='relative  md:h-[450px] h-[700px] flex items-end'>
+          <div className='relative md:w-[50%] lg:w-[50%] w-[100%] md:h-[450px] h-[700px] flex items-end'>
             <div className='mx-6'>
               <svg
                 width='367'
@@ -166,15 +166,15 @@ const Advantages = () => {
               </svg>
             </div>
 
-            <div className='absolute z-20 md:top-0 top-20 md:right-[389px] right-[289px] drop-shadow-xl  border border-3 w-[290px] h-[390px]'>
+            <div className='absolute z-20 md:top-0 top-20 md:right-[389px] right-[180px] md:drop-shadow-xl  md:border border-3 md:w-[250px] w-[200px] md:h-[280px] h-[300px]'>
               <img
-                className='w-[289px] h-[388px] object-cover'
+                className='md:w-[289px] w-[200px] md:h-[288px] h-[258px] object-cover'
                 src='https://www.figma.com/file/gqtlv0RnkBHU0Ux266aanT/image/387ab9b5f6b22d70030b421a14da1a36996a5878'
               />
             </div>
-            <div className=' absolute right-0 bottom-0 z-10  drop-shadow-xl border border-3 w-[431px] h-[579px]'>
+            <div className=' absolute right-0 bottom-0 z-10  md:drop-shadow-xl md:border border-3 md:w-[401px] w-[301px] md:h-[479px] h-[489px]'>
               <img
-                className='w-[431px] h-[579px] object-cover'
+                className='md:w-[431px] w-[301px] md:h-[479px] h-[359px] object-cover'
                 src='https://s3-alpha-sig.figma.com/img/5e56/648d/eba803747c88ea471c2306ea81135cbf?Expires=1682899200&Signature=jP9ByPHCfsCKEqt3Hgah0Learqi1EYyYmqYdc8IZguOUMA7xf1gX8NLE-5g3wSZGz~dE2IO~0TGrm8ESsLlYc~2Ob9dX~dw9sKp6R0dyRSFoEpWwT1rUyaKF6msCXuWmcMpw9v7qktXS2xWWz9n3I9T6AEXZEPWqkbatfFwtFSwwj3Btb6uFcaAEU~TEnaK90ZwAtq9XcI9HhyU7AQhRg6ALW1IFWrv~R6QRWVJtzaI2q0TykC-TsV8VJGCPAfumz21YIBWbiE72K4GLNPNYUwF8LmUNYWZetted4oVZ78CUTXaL0KXyReEAbccT0b3C4IOYoFitq3igyL~oRWfIAg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
               />
             </div>

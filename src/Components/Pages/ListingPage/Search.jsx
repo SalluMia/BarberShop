@@ -4,14 +4,14 @@ import "../../../Styles/Styles.css";
 const Search = () => {
   return (
     <div className="bg-[#1E1E1E] background-image-Listing text-[white] flex justify-center items-center relative">
-      <div className="absolute flex justify-end">
+      <div className="absolute w-[80%] flex justify-end">
         <input
           type="search"
           placeholder="Search Barber here"
-          className="search-field ring-transparent bg-transparent w-[971px] h-[75px] border border-[#C5AC80] rounded-[70px] pl-16 pr-5 text-[18px]"
+          className="search-field ring-transparent bg-transparent w-full h-[75px] border border-[#C5AC80] rounded-[70px] pl-16 pr-5 text-[18px]"
         />
       </div>
-      <div className=" relative ml-[920px]">
+      <div className=" relative ml-[65%]">
         <svg
           width="27"
           height="26"

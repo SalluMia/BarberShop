@@ -25,7 +25,7 @@ const Book = () => {
       <div className='absolute top-[80px] px-10 items-center w-100'>
           <div className='flex flex-col justify-evenly  gap-y-2'>
             <h1 className='text-3xl text-[#C5AC80]'>Book Your Slot Now</h1>
-            <p className='text-sm text-white w-[400px]'>
+            <p className='text-sm text-white md:w-[400px]'>
               Aenean fringilla dignissim tempor. Fusce et orci vel est semper
               iaculis non bibendum elit.
             </p>

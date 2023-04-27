@@ -142,7 +142,7 @@ const FAQ = () => {
       </div>
 
       <img
-        className='absolute top-0 left-20 w-[220.47px] h-[510.78px] opacity-30 rotate-[220deg]'
+        className='absolute top-0 left-20 md:w-[220.47px] w-[180.47px] md:h-[510.78px] h-[410.78px] opacity-30 rotate-[220deg]'
         src='https://s3-alpha-sig.figma.com/img/454b/44e1/ff75b028adb83abe646dc480677ea294?Expires=1682899200&Signature=Nfyxr2ihD9ipIWAgB1f3CSrPgOdH2RAIOZKplNtCs10k1zQr1ju-v6bwCrI9X7lUny9749KdI18VzP0RFg8JBxorbawb-qLoPtWhBVbVw1vzWJ-eyZBQZ-je~npadTvzqY3XGYQBu~yX63ZD0yFunBPGsAlGVA07HXcmi5R3owynin7JHjxoQKhBO1x9fwCV8abbDecL0~yk27jx3UHCjBr09iu4kxCcfWZGHmLmtzfldDNME5~pVk0j-E3paaWFLgnwN-uAwRu7pg3o-H~fJTzN0u6anCJY33N6s5tYv8tC6-SC1uIfGWi7sqhrL9vkhmi4R7E2lIo-zwkpGRqdUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
       />
 
