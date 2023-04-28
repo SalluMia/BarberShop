@@ -3,11 +3,11 @@ import "../../../Styles/Styles.css";
 import lady from "../../../assets/icons/barberrr.png";
 const Home = () => {
   return (
-    <div className="md:h-[651px] h-100 ">
-      <div className="background-image-landing bg-[#1E1E1E] h-100">
+    <div className="md:h-[651px] h-100 mt-4 text-center md:text-left">
+      <div className="background-image-landing bg-[#1E1E1E]">
         <div className="md:flex relative">
-          <div className="md:w-[50%] w-[100%] md:ml-10 text-center">
-            <p className="text-[72px] font-normal text-[white] leading-[90px]]">
+          <div className="md:w-[50%]  md:ml-10 my-auto ">
+            <p className="text-[72px] font-normal text-[white] leading-[90px]] ">
               Your Hair
             </p>
             <p className="text-[60px] text-[#C5AC80] leading-[70.31px]">
