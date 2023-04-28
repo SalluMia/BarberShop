@@ -16,7 +16,7 @@ const About = () => {
         <div className='rectangle-sm md:bg-right-top bg-right-bottom '>
           <div className='bg-[#1E1E1E] background-image-About  md:flex relative md:py-0 py-10'>
             <div className='md:w-[40%]'>
-              <div className=' md:flex mt-10 -ml-1 relative md:top-[50px] top-[-20px] md:right-[-70px] right-[30px] w-[300px]'>
+              <div className=' md:flex mt-10 -ml-1 relative md:top-[50px] top-[-20px] md:right-[-70px] right-[20px] w-[250px]'>
                 <img src={man} />
               </div>
             </div>

@@ -2,24 +2,24 @@ import React from 'react';
 
 const Advantages = () => {
   return (
-    <div className='relative'>
-      <div className='container md:h-[50vh] h-[100vh] my-60'>
+    <div className='relative h-100'>
+      <div className='container md:mt-20 mb-20'>
         <h1 className='text-5xl text-left mt-9 '>Advantages</h1>
 
-        <div className='md:flex justify-evenly items-center w-100'>
-          <div className='md:w-[40%]'>
+        <div className='md:flex  items-center w-100'>
+          <div className='w-[100%] md:w-[50%] h-100'>
             <p className='text-[#1E1E1E]'>
               Nulla convallis porttitor porttitor. Nullam id feugiat nisi. Donec
               at egestas augue. Curabitur venenatis ullamcorper sem quis
               interdum.
             </p>
             <div className='flex flex-col justify-center space-y-10'>
-              <div className='relative'>
-                <div className='border-2  py-2 rounded-lg border-[#C5AC80] p-10 '>
+              <div className='relative '>
+                <div className='ml-7 md:ml-0 border-2 py-2 rounded-lg border-[#C5AC80] p-10 '>
                   Vestibulum vehicula, nisl ac sagittis dictum,
                 </div>
 
-                <div className='absolute -top-1 -left-6'>
+                <div className='absolute top-1 md:-top-1 md:-left-6'>
                   <svg
                     width='52'
                     height='52'
@@ -41,17 +41,17 @@ const Advantages = () => {
                   </svg>
                 </div>
 
-                <div className=' absolute text-lg top-2 -left-2 z-20 text-[#262627]'>
+                <div className=' absolute text-lg top-3 md:top-2 left-4 md:-left-2 z-20 text-[#262627]'>
                   01
                 </div>
               </div>
 
               <div className='relative'>
-                <div className='border-2  py-2 rounded-lg border-[#C5AC80] bg-[#C5AC80] p-10'>
+                <div className='ml-7 md:ml-0 border-2  py-2 rounded-lg border-[#C5AC80] bg-[#C5AC80] p-10'>
                   Orci varius natoque penatibus et magnis dis.
                 </div>
 
-                <div className='absolute -top-1 -left-6 border-3 z-10'>
+                <div className='absolute top-1 md:-top-1 md:-left-6 border-3 z-10'>
                   <svg
                     width='52'
                     height='52'
@@ -73,17 +73,17 @@ const Advantages = () => {
                   </svg>
                 </div>
 
-                <div className=' absolute text-lg top-2 -left-2 z-20 text-white'>
+                <div className=' absolute text-lg top-3 md:top-2 left-4 md:-left-2 z-20 text-white'>
                   02
                 </div>
               </div>
 
               <div className='relative'>
-                <div className='border-2  py-2 rounded-lg border-[#C5AC80] p-10'>
+                <div className='ml-7 md:ml-0 border-2  py-2 rounded-lg border-[#C5AC80] p-10'>
                   Vestibulum vehicula, nisl ac sagittis dictum,
                 </div>
 
-                <div className='absolute -top-1 -left-6'>
+                <div className='absolute top-1 md:-top-1 md:-left-6'>
                   <svg
                     width='52'
                     height='52'
@@ -105,17 +105,17 @@ const Advantages = () => {
                   </svg>
                 </div>
 
-                <div className=' absolute text-lg top-2 -left-2 z-20 text-[#262627]'>
+                <div className=' absolute text-lg top-3 md:top-2 left-4 md:-left-2 z-20 text-[#262627]'>
                   03
                 </div>
               </div>
 
               <div className='relative'>
-                <div className='border-2  py-2 rounded-lg border-[#C5AC80] p-10'>
+                <div className='ml-7 md:ml-0 border-2  py-2 rounded-lg border-[#C5AC80] p-10'>
                   Vestibulum vehicula, nisl ac sagittis dictum,
                 </div>
 
-                <div className='absolute -top-1 -left-6'>
+                <div className='absolute top-1 md:-top-1 md:-left-6'>
                   <svg
                     width='52'
                     height='52'
@@ -137,13 +137,14 @@ const Advantages = () => {
                   </svg>
                 </div>
 
-                <div className=' absolute text-lg top-2 -left-2 z-20 text-[#262627]'>
+                <div className=' absolute text-lg top-3 md:top-2 left-4 md:-left-2 z-20 text-[#262627]'>
                   04
                 </div>
               </div>
             </div>
           </div>
-          <div className='relative md:w-[50%] lg:w-[50%] w-[100%] md:h-[450px] h-[700px] flex items-end'>
+          <div className='w-[100%] md:w-[50%] h-100  flex items-end'>
+          <div className="relative w-100 h-100 mt-5 md:mt-0 ">
             <div className='mx-6'>
               <svg
                 width='367'
@@ -165,18 +166,18 @@ const Advantages = () => {
                 />
               </svg>
             </div>
-
-            <div className='absolute z-20 md:top-0 top-20 md:right-[389px] right-[180px] md:drop-shadow-xl  md:border border-3 md:w-[250px] w-[200px] md:h-[280px] h-[300px]'>
+            <div className='absolute z-20 md:top-0 top-20 md:left-0 left-[0px] md:drop-shadow-xl  md:border border-3 md:w-[250px] w-[200px]'>
               <img
                 className='md:w-[289px] w-[200px] md:h-[288px] h-[258px] object-cover'
                 src='https://www.figma.com/file/gqtlv0RnkBHU0Ux266aanT/image/387ab9b5f6b22d70030b421a14da1a36996a5878'
               />
             </div>
-            <div className=' absolute right-0 bottom-0 z-10  md:drop-shadow-xl md:border border-3 md:w-[401px] w-[301px] md:h-[479px] h-[489px]'>
+            <div className=' absolute right-0 bottom-0 z-10  md:drop-shadow-xl md:border border-3 md:w-[401px] w-[250px] '>
               <img
                 className='md:w-[431px] w-[301px] md:h-[479px] h-[359px] object-cover'
                 src='https://s3-alpha-sig.figma.com/img/5e56/648d/eba803747c88ea471c2306ea81135cbf?Expires=1682899200&Signature=jP9ByPHCfsCKEqt3Hgah0Learqi1EYyYmqYdc8IZguOUMA7xf1gX8NLE-5g3wSZGz~dE2IO~0TGrm8ESsLlYc~2Ob9dX~dw9sKp6R0dyRSFoEpWwT1rUyaKF6msCXuWmcMpw9v7qktXS2xWWz9n3I9T6AEXZEPWqkbatfFwtFSwwj3Btb6uFcaAEU~TEnaK90ZwAtq9XcI9HhyU7AQhRg6ALW1IFWrv~R6QRWVJtzaI2q0TykC-TsV8VJGCPAfumz21YIBWbiE72K4GLNPNYUwF8LmUNYWZetted4oVZ78CUTXaL0KXyReEAbccT0b3C4IOYoFitq3igyL~oRWfIAg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
               />
+            </div>
             </div>
           </div>
         </div>

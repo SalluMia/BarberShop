@@ -8,13 +8,13 @@ const BarberDetail = () => {
   return (
     <>
       <div className='bg-[#1E1E1E] background-image-Detail text-[white] flex justify-center items-center relative'></div>
-      <div className='flex md:flex-row flex-col'>
-        <div className='md:col-md-4 -mt-32 md:ml-5 flex md:justify-start justify-center z-20'>
+      <div className='flex md:flex-row flex-col w-100'>
+        <div className='md:w-[30%] :w-[100%] -mt-32 md:ml-5 flex md:justify-start justify-center z-20'>
           <img src={man} className=' w-[330px] h-[337px]' />
           {/* <p className='text-[35px] mt-5 md:hidden block'> Barba Raja</p> */}
         </div>
-        <div className='md:col-md-8 md:flex'>
-          <div className='md:col-md-7  flex flex-col md:items-start md:mt-0 mt-4 items-center justify-evenly md:pl-20 '>
+        <div className='md:flex w-[100%] md:w-[65%]'>
+          <div className='flex flex-col md:items-start md:mt-0 mt-4 items-center justify-evenly md:pl-20 '>
             <div className='flex ml-3'>
               <div className='w-[32px] h-[32px] bg-[#C5AC80] rounded-full flex justify-center items-center'>
                 <svg
@@ -58,7 +58,7 @@ const BarberDetail = () => {
               </p>
             </div>
           </div>
-          <div className='md:col-md-5 md:pl-20 pt-4 flex flex-col md:items-start items-end background-image-scissors'>
+          <div className='items-center md:items-end md:col-md-5 md:pl-20 mt-5 flex flex-col   background-image-scissors w-100 justify-center md:justify-end'>
             <p className='text-[28px]'>Rating</p>
             <p className='text-[28px] flex items-center gap-2'>
               {[1, 2, 3, 4, 5].map((rating) => {
@@ -104,7 +104,7 @@ const BarberDetail = () => {
           </div>
         </div>
       </div>
-      <div className='ml-24 mr-5 mt-5'>
+      <div className='md:ml-24 md:mr-5 mt-5 px-4'>
         <p className='text-[35px]'> Barba Raja</p>
         <p className='text-justify leading-relaxed'>
           Nunc accumsan cursus viverra. Aliquam rutrum est eget tristique

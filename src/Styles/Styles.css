@@ -1,6 +1,6 @@
 .background-image-landing {
   background-image: url("../assets/icons/bgImage.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   width: 100%;
   height: 600px;
@@ -45,7 +45,7 @@
 
 .background-image-Listing {
   background-image: url("../assets/icons/aboutabckround.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   width: 100%;
   height: 600px;
@@ -55,7 +55,7 @@
 }
 .background-image-Detail {
   background-image: url("../assets/icons/barberdetailbg.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   width: 100%;
   height: 414px;

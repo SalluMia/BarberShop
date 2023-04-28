@@ -22,7 +22,7 @@ function index() {
 //   }
 `;
   return (
-    <div className="mx-28 mb-7 mt-28">
+    <div className="px-2 md:mx-28 mb-7 mt-28">
       <style>{css}</style>
       <div>
         <p className="text-primaryFontColor">Make a Appointment with</p>
