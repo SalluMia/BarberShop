@@ -106,14 +106,14 @@ function Time() {
             <div
               class={`flex items-center shadow-sm mr-5 ${
                 time.includes("10:00 am") ? " bg-primaryFontColor" : " bg-white"
-              }  pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              }  pl-4 border mb-2 border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
                 type="radio"
                 value="10:00 am"
                 name="radioTime"
-                class="w-8 h-8 form-radio   bg-gray-100 shadow-none  border-gray-300 rounded-full "
+                class="w-8 h-8 form-radio bg-gray-100 shadow-none  border-gray-300 rounded-full "
                 onChange={handleTimeChanges}
                 checked={time.includes("10:00 am")}
               />
@@ -129,7 +129,7 @@ function Time() {
             <div
               class={`flex items-center shadow-sm ${
                 time.includes("11:00 am") ? "bg-primaryFontColor" : "bg-white"
-              }  mr-5 pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              }  mr-5 pl-4 mb-2 border border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
@@ -152,7 +152,7 @@ function Time() {
             <div
               class={`flex shadow-sm ${
                 time.includes("12:00 am") ? "bg-primaryFontColor" : "bg-white"
-              } items-center mr-5 pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              } items-center mb-2 mr-5 pl-4 border border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
@@ -175,7 +175,7 @@ function Time() {
             <div
               class={`flex shadow-sm  ${
                 time.includes("01:00 pm") ? "bg-primaryFontColor" : "bg-white"
-              } items-center mr-5 mt-4 pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              } items-center mr-5 mt-2 pl-4 border border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
@@ -198,7 +198,7 @@ function Time() {
             <div
               class={`flex shadow-sm ${
                 time.includes("02:00 pm") ? "bg-primaryFontColor" : "bg-white"
-              } items-center mr-5 mt-4 pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              } items-center mr-5 mt-2 pl-4 border border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
@@ -221,7 +221,7 @@ function Time() {
             <div
               class={`flex shadow-sm ${
                 time.includes("03:00 pm") ? "bg-primaryFontColor" : "bg-white"
-              } items-center mr-5 mt-4 pl-4 border border-gray-200 rounded dark:border-gray-700`}
+              } items-center mr-5 mt-2 pl-4 border border-gray-200 rounded dark:border-gray-700`}
             >
               <input
                 id="bordered-checkbox-1"
