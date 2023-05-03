@@ -4,7 +4,7 @@ import SignUp from './Components/Pages/SignUp/SignUp';
 import Footer from './Components/Pages/HomePage/Footer';
 import Index from './Components/Pages/HomePage/Index';
 import ListingPage from './Components/Pages/ListingPage/ListingPage';
-import Services from './Components/Pages/Appointment/index';
+import Services from './Components/Pages/Appointment/AppointmentForm';
 import BarberDetails from './Components/Pages/BarberDetail/BarberDetails';
 import LogIn from './Components/Pages/SignUp/LogIn';
 

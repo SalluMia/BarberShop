@@ -1,0 +1,19 @@
+/* Change the color of the radio button dot when it's checked */
+.form-radio:checked {
+    color: #48bb78;
+    /* Change the color to match your design */
+}
+
+
+
+input[name="radioTime"] {
+    accent-color: black;
+
+}
+
+
+input[name="bordered-checkbox"] {
+    accent-color: #c4ac80;
+    background-color: white;
+
+}

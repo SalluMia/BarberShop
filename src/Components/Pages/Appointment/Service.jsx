@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
-function Service() {
+function Service(props) {
+  const { selectedServices, setSelectedServices } = props;
   const [checkboxes, setCheckboxes] = useState([]);
   const handleCheckboxChange = (event) => {
     console.log(event.target.value);
@@ -14,6 +15,12 @@ function Service() {
       setCheckboxes([...checkboxes, targetCheckbox]);
     }
   };
+
+  // // Call the setSelectedServices function whenever the checkboxes change
+  // useEffect(() => {
+  //   setSelectedServices(checkboxes);
+  // }, [checkboxes, setSelectedServices]);
+
   return (
     <div className='mt-12'>
       <h3>Select Service</h3>
