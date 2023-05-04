@@ -5,6 +5,7 @@ import barber from "../../../assets/icons/women.png";
 import Linebig from "../../../assets/icons/Linebig.png";
 import Line from "../../../assets/icons/Line4.png";
 
+
 const handlePrevClick = (e, carousel) => {
   e.preventDefault();
   carousel.slidePrev();

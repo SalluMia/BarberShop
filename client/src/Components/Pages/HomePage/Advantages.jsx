@@ -1,5 +1,5 @@
 import React from 'react';
-
+import advant2 from '../../../assets/advant2.png'
 const Advantages = () => {
   return (
     <div className='relative h-100'>
@@ -174,8 +174,9 @@ const Advantages = () => {
             </div>
             <div className=' absolute right-0 bottom-0 z-10  md:drop-shadow-xl md:border border-3 md:w-[401px] w-[250px] '>
               <img
+                alt='advant imag Not Accessable problem'
                 className='md:w-[431px] w-[301px] md:h-[479px] h-[359px] object-cover'
-                src='https://s3-alpha-sig.figma.com/img/5e56/648d/eba803747c88ea471c2306ea81135cbf?Expires=1682899200&Signature=jP9ByPHCfsCKEqt3Hgah0Learqi1EYyYmqYdc8IZguOUMA7xf1gX8NLE-5g3wSZGz~dE2IO~0TGrm8ESsLlYc~2Ob9dX~dw9sKp6R0dyRSFoEpWwT1rUyaKF6msCXuWmcMpw9v7qktXS2xWWz9n3I9T6AEXZEPWqkbatfFwtFSwwj3Btb6uFcaAEU~TEnaK90ZwAtq9XcI9HhyU7AQhRg6ALW1IFWrv~R6QRWVJtzaI2q0TykC-TsV8VJGCPAfumz21YIBWbiE72K4GLNPNYUwF8LmUNYWZetted4oVZ78CUTXaL0KXyReEAbccT0b3C4IOYoFitq3igyL~oRWfIAg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+                src={advant2}
               />
             </div>
             </div>
@@ -184,7 +185,9 @@ const Advantages = () => {
       </div>
 
       <div className='absolute -bottom-[420px] right-[80px] opacity-10 w-[119.17px] h-[276.09px] rotate-[65deg]'>
-        <img src='https://s3-alpha-sig.figma.com/img/454b/44e1/ff75b028adb83abe646dc480677ea294?Expires=1682899200&Signature=Nfyxr2ihD9ipIWAgB1f3CSrPgOdH2RAIOZKplNtCs10k1zQr1ju-v6bwCrI9X7lUny9749KdI18VzP0RFg8JBxorbawb-qLoPtWhBVbVw1vzWJ-eyZBQZ-je~npadTvzqY3XGYQBu~yX63ZD0yFunBPGsAlGVA07HXcmi5R3owynin7JHjxoQKhBO1x9fwCV8abbDecL0~yk27jx3UHCjBr09iu4kxCcfWZGHmLmtzfldDNME5~pVk0j-E3paaWFLgnwN-uAwRu7pg3o-H~fJTzN0u6anCJY33N6s5tYv8tC6-SC1uIfGWi7sqhrL9vkhmi4R7E2lIo-zwkpGRqdUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' />
+        <img 
+         alt='Accessable problem'
+         src='https://s3-alpha-sig.figma.com/img/454b/44e1/ff75b028adb83abe646dc480677ea294?Expires=1682899200&Signature=Nfyxr2ihD9ipIWAgB1f3CSrPgOdH2RAIOZKplNtCs10k1zQr1ju-v6bwCrI9X7lUny9749KdI18VzP0RFg8JBxorbawb-qLoPtWhBVbVw1vzWJ-eyZBQZ-je~npadTvzqY3XGYQBu~yX63ZD0yFunBPGsAlGVA07HXcmi5R3owynin7JHjxoQKhBO1x9fwCV8abbDecL0~yk27jx3UHCjBr09iu4kxCcfWZGHmLmtzfldDNME5~pVk0j-E3paaWFLgnwN-uAwRu7pg3o-H~fJTzN0u6anCJY33N6s5tYv8tC6-SC1uIfGWi7sqhrL9vkhmi4R7E2lIo-zwkpGRqdUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' />
       </div>
 
       <div className='absolute top-[450px]'>

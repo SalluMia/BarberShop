@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Ellips4 from '../../../assets/Ellipse4.png'
+import Ellips7 from '../../../assets/Ellipse7.png'
+import Ellips9 from '../../../assets/Ellipse9.png'
 const Reviews = () => {
   return (
     <div className='py-1'>
@@ -17,8 +19,8 @@ const Reviews = () => {
                 <div className='bg-white  shadow-lg p-6 w-[100%] flex flex-col items-center space-y-3 rounded-lg'>
                   <div className='w-[182px] h-[182px] border-[#A4906C] border-2 rounded-full flex justify-center items-center'>
                     <img
-                      src='https://s3-alpha-sig.figma.com/img/0d9f/85f7/9ed6c9dcfc2516a8bb6b79a7b8816fe5?Expires=1682899200&Signature=kyLC7pY3~78GQeMTBs71PTxEsXRdIOA7H7HvnpfnOcL5z1QQTZQT1XXHwNk4szGrjCofPhTwfHqzFWfR4cah~V38E4XLblzhE9qYMBM642I2yAqnRu4Xld1vY7m2TY315SZ7aQHbVa2gmAjmuxne2PnaQE~V-CZHymHkqnAqGOTU5HId2mwOIJNo0027wQdy2vTcn7n4Gatgl2tBvJqxeRS~PNCQR319Sv2bq4tr~0Bch5Y4XboU-M84TfetWL~LGHTejKUeln7SF3IKqm6-OrT~aysF5-UkGEo1qpzEQl79m8FzFlwW5Xmtgh7A4SBmu-0ExVOsiWzc8sFx5NJqCQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
                       className='border-[#A4906C] w-[132px] h-[132px] border-2 rounded-full object-cover'
+                      src={Ellips4}
                     />
                   </div>
 
@@ -116,7 +118,7 @@ const Reviews = () => {
                 <div className='bg-[#1E1E1E] text-white shadow-lg p-6 w-[100%] flex flex-col items-center space-y-3 rounded-lg'>
                   <div className='w-[182px] border-[#A4906C] h-[182px] border-2 rounded-full flex justify-center items-center'>
                     <img
-                      src='https://s3-alpha-sig.figma.com/img/8a49/666c/003d9847fbff56ccac019da81f4166f3?Expires=1682899200&Signature=fr3NfN4U7CY79-bBzAwfz7diLr6z4ERBHvD4OwD~8iEMqsBkIEYvdRjGiC66VdWO5Wcu8XliVJPOMhACX4JYVEemo1O7ysb0G98XxP9YSMJiHOoL-ZghsWKg30k9xCefejXXtoCqwgtSqsq5Q~zQPov7Gz8K2~oKVymZ41LbT4YLGdAMNksr2K7d~qhqGkrjGPXKfyrCcfo9Zp2ZkZOcBSzGvn85ZcT5VsMEy5GVWlQXvgKUSIWCsVwu49QdkFi2F0dR2DjyYGmn3KN9C~DT0dMsn-kC93MDImN0yDjk3eX7ganPvzbSRFzpFtEtH-ROqEynetLv8Rq94PkSDgeJlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+                    src={Ellips7}
                       className='w-[132px] border-[#A4906C] h-[132px] border-2 rounded-full object-cover'
                     />
                   </div>
@@ -215,7 +217,7 @@ const Reviews = () => {
                 <div className=' text-black bg-white shadow-lg p-6 w-[100%] flex flex-col items-center space-y-3 rounded-lg'>
                   <div className='w-[182px] border-[#A4906C] h-[182px] border-2 rounded-full flex justify-center items-center'>
                     <img
-                      src='https://s3-alpha-sig.figma.com/img/105c/b09b/57309e1cce4c270d6cbf1e57f273c4f6?Expires=1682899200&Signature=eQAD0u-JME98Nm~xwJfPecnviR4qxegEX3SYRDiplMytoBtgcGkd-MOe0pb7scbzH6woL0~lQXl6q6db0VmZpUouuuP0dmBEp4irB~dl1tAPmxB7u02yIyamDM~J~KS5XfKP6teLEIDIyFA4SqLUCWboFDo8ibX1m-wnbAmjjJXupc1a9VUQeshL0Fia10WsbGkhW-qr7rW0T5YUI56tmYBTU5P7auBeknI8-VtIQpViywYE7Qqy1It1LcHJQ02kiIZChpL2HUNVWQVaQpjSCPaNBXwqsFhTRmtwwVq-tz20N68lo1YR11T5Gi6xqisoH6C~YhfYO5k-TXTao4HCYQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'
+                      src={Ellips9}
                       className='w-[132px] border-[#A4906C] h-[132px] border-2 rounded-full object-cover'
                     />
                   </div>

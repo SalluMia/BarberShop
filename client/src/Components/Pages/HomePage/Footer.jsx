@@ -1,4 +1,5 @@
 import React from 'react'
+import barbershoplogopngWhite1 from '../../../assets/barbershoplogopngWhite1.png'
 
 const Footer = () => {
     return (
@@ -11,8 +12,8 @@ const Footer = () => {
                 <div className='flex flex-col  justify-center items-center md:items-start lg:ml-[200px] md:pl-[50px]'>
                     <img
                         className='w-[375px] h-[107px]'
-
-                        src="https://s3-alpha-sig.figma.com/img/48bd/d2cb/ea90ace23d61569dbcfa4576248beb4a?Expires=1682899200&Signature=nC3bGvliDpO6nN0056BhWw4jBaWeE7uJvvHzTYKfdo5gaTKkTr6sBKsgr6JxZeBq76TRypRRNyojXoyU2B7h6evPtHcXy11prc7LCmjJB1pHQuOnHuFYl6QMhIPUx8lX7YhekOuJ9nc1GaaZqVQVil05oOQo~CELIA3dg6~BQspdq5ZR7cmriBoVvooZibm1u8KJkmu0eQrBZwyK1aa1eu0UTfS0fjGEUvvauHyHT9UmNIUP8Vt65FtE8fyn8l7KKwC-L1c2FE2C6a6iRkKLcH7pYhfmXoor1IFJyDyRlvXbL~Ta3QPJrNExoQU7yuWERN1n~50gLfBXIjMAJWDYFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                        src={barbershoplogopngWhite1}
+                         />
 
                     <p className='w-1/2  text-white'>
                         Quisque molestie massa dolor. Nam in ligula massa. Nulla ullamcorper diam sem, accumsan fermentum tortor vehicula quis
